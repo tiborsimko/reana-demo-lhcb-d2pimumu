@@ -5,3 +5,7 @@ inputs:
 workflow:
   type: cwl
   file: workflow/cwl/workflow.cwl
+  files:
+    - workflow/cwl/optimise.cwl
+    - workflow/cwl/model_fixing.cwl
+    - workflow/cwl/mass_fit.cwl
