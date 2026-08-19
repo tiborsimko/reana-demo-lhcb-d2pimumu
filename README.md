@@ -169,16 +169,18 @@ The result of this analysis are the following plots in various dimuon mass
 ranges. We studied the three body decay in high dimuon and low dimuon mass
 range, and we did not observe any signal.
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD013 MD060 -->
 
-| Dimuon resonances        | Dimuon mass range (MeV) | Plot                          |           |
-| ------------------------ | ----------------------- | ----------------------------- | --------- | ---------- | --------- | --------------- | ---------- |
-| ------------------------ |                         | Three body decay (low dimuon) | 250 - 525 |
-| `low_dimuon_signal.pdf`  |                         | $\eta$                        | 525 - 565 | `eta.pdf`  |           | $\rho , \omega$ |
-| 565 - 850                | `rho_omega.pdf`         |                               | $\phi$    | 850 - 1250 | `phi.pdf` |                 | Three body |
-| (high dimuon)            | 1250 - 2000             | `high_dimuon_signal.pdf`      |
+<!-- prettier-ignore -->
+| Dimuon resonances             | Dimuon mass range (MeV) | Plot                     |
+| ----------------------------- | ----------------------- | ------------------------ |
+| Three body decay (low dimuon) | 250 - 525               | `low_dimuon_signal.pdf`  |
+| $\eta$                        | 525 - 565               | `eta.pdf`                |
+| $\rho , \omega$              | 565 - 850               | `rho_omega.pdf`          |
+| $\phi$                        | 850 - 1250              | `phi.pdf`                |
+| Three body (high dimuon)      | 1250 - 2000             | `high_dimuon_signal.pdf` |
 
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-enable MD013 MD060 -->
 
 The plots can be found in the `mass_fits` folder at the end of the execution.
 
